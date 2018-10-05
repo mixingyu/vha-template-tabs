@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='utf-8'?>
-<widget id="com.vha.templateblank" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
-    <name>vha-template-blank</name>
-    <description>这是一个空的vueHybridApp模板</description>
+<widget id="com.vha.templatetabs" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+    <name>vha-template-tabs</name>
+    <description>这是一个带有tabs和基本架构的vueHybridApp模板</description>
     <author email="neoStudioGroup@163.com" href="http://neoStudioGroup.com">
         neoStudioGroup
     </author>

@@ -1,5 +1,5 @@
 # vha-template-blank
-这是一个空的vueHybridApp模板
+这是一个带有tabs和基本架构的vueHybridApp模板
 
 ps设计图参考 1336*750
 
