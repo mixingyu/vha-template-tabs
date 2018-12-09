@@ -18,7 +18,7 @@
 
     <div class="_ph-4x"></div>
     
-    <vha-button v-vhaRt="{push:'/newpage', animate: 'in'}">去同级新页面</vha-button>
+    <vha-button v-vhaRt="{push:'/newpage'}">去同级新页面</vha-button>
     
     <div class="_ph-2x"></div>
     

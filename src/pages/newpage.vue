@@ -30,12 +30,6 @@ export default {
   },
   mounted() {
     //挂载实例后 - this.$el存在
-    
-    // 默认页面动画根据路由自动判断in out
-    // 同级路由代理navbar左侧按钮事件自己实现
-    this.$route.meta.vhaNavbar.leftButtonEvent = () => {
-      this.$vhaRt.go({value: -1, animate: 'out'})
-    }
   },
   beforeDestroy() {
     //销毁前 - 实例仍然完全可用

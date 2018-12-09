@@ -86,6 +86,11 @@ export default new Router({
       meta: {
         vhaNavbar: {
           title: 'newpage'
+        },
+        // 默认页面动画根据路由层级自动判断, 同级页面会出现奇怪的效果, 所以这里强制指定一个页面的in out动画
+        vhaAnime: {
+          in: 'in',
+          out: 'out'
         }
       }
     }
