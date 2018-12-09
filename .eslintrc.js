@@ -16,6 +16,7 @@ module.exports = {
     "no-undef": 'off',
     "no-useless-escape": 'off',
     "no-mixed-spaces-and-tabs": 'off',
+    "no-empty": 'off',
     "browser": 'off'
   },
   parserOptions: {
