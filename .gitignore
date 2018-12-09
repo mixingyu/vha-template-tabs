@@ -1,7 +1,6 @@
 .DS_Store
 node_modules
 package-lock.json
-/www
 
 # local env files
 .env.local
@@ -24,6 +23,7 @@ yarn-error.log*
 # cordova stuff
 /platforms
 /plugins
+/www
 
 # 如果你需要提交的时候上传apk文件夹就取消下面的注释
 # /platforms/android/*

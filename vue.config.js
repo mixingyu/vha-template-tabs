@@ -8,8 +8,8 @@ module.exports = {
   css: {
     loaderOptions: {
       stylus: {
-        // 全局使用 rem()
-        import: ['~vha-components/assets/stylus/method.styl']
+        // 全局使用 rpx()
+        import: ['~vha-components/src/assets/stylus/method.styl']
       }
     }
   }

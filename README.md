@@ -1,7 +1,5 @@
-# vha-template-blank
-这是一个带有tabs和基本架构的vueHybridApp模板
-
-ps设计图参考 1336*750
+# vha-template-tabs
+这是一个带有tabbar和基本页面逻辑的vue-hybrid-app模板 [gitee预览页面](https://mixingyu.gitee.io/vha-template-tabs/) [github预览页面](https://mixingyu.github.io/vha-template-tabs/)
 
 ```
 npm install
@@ -10,4 +8,6 @@ cordova platform add android
 cordova run android
 ```
 
-![vha-template-blank](https://raw.githubusercontent.com/mixingyu/vha-template-data/master/image/vha-template-blank.png)
+## 路由逻辑
+
+![1](README/router.png)

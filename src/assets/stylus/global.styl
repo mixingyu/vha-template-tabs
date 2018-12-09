@@ -1,61 +1,43 @@
-// 全局样式
+// 全局样式 - 只放通用class
+
+/* 所有UI组件 */
+*[class*="UI-"]{
+  /* outline: 1px solid red !important; */
+  outline-color: red;
+}
+/* 所有UI组件-子元素 */
+*[class*="UI-"] *[class*="ui-"]{
+  /* outline: 1px solid blue !important; */
+  outline-color: blue;
+}
+/* 所有UI组件-所有子元素 */
+*[class*="UI-"] *{
+  /* outline: 1px solid green !important; */
+  outline-color: green;
+}
 
 // 公共组件-空行空格
-._framebox{
-  height: 10px;
+._ph{
+  height: rpx(10)
 }
-._framebox-20{
-  height: 20px;
+._ph-2x{
+  height: rpx(20)
 }
-._framebox-30{
-  height: 30px;
+._ph-4x{
+  height: rpx(40)
 }
-
-._UI-button
-  position relative
-  padding rem(30) rem(40)
-  margin rem(25)
-  border-radius rem(100)
-  text-align center
-  color #fff
-  display block
-  background-color #ef473a
-  transition background-color 100ms
-  &:active
-    // background-color #c33227
-    &:after
-      opacity .6
-      top 0
-      left 0
-      right 0
-      bottom 0
-      transition 0s
-  &:after
-    content ""
-    display block
-    position absolute
-    top -10px
-    left -10px
-    right -10px
-    bottom -10px
-    pointer-events none
-    border-radius rem(100)
-    background-color #c33227
-    background-repeat no-repeat
-    background-position 50%
-    opacity 0
-    transition all .2s
-  
-  
-  
-  
-._UI-input
-  display block
-  padding rem(30) rem(40)
-  input
-    padding rem(10)
-    border 1px solid #eee
-
-._UI-hr
-  margin rem(40) rem(20)
-  border-bottom: 1px dashed #bbb
+._ph-6x{
+  height: rpx(60)
+}
+._it{
+  display: inline-block
+  width: rpx(10)
+}
+._it-2x{
+  display: inline-block
+  width: rpx(20)
+}
+._it-4x{
+  display: inline-block
+  width: rpx(30)
+}

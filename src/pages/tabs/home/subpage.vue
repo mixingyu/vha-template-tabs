@@ -1,28 +1,19 @@
 <style lang="stylus">
-._PG-index
-
-  // UI组件-名称
-  ._UI-name
-    margin rem(400) 0
-    text-align center
-    background-color white
-
+.tabs_PG-homeSubpage
+  padding rpx(40)
 </style>
 －－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－
 <template>
-  <div class="_PG-index">
+  <vha-page class="tabs_PG-homeSubpage">
 
-    <!-- UI组件-名称 -->
-    <div class="_UI-name">
-      hello world
-    </div>
-
-  </div>
+    homeSubpage
+    
+  </vha-page>
 </template>
 －－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－
 <script type="text/ecmascript-6">
 export default {
-  name: 'PGindex',
+  name: 'tabsPGhomeSubpage',
   data() {
     //动态数据
     return {
@@ -38,10 +29,10 @@ export default {
     //观察 - 数据或方法变动
   },
   mounted() {
-    //挂载实例后 - this.el存在
+    //挂载实例后 - this.$el存在
   },
   beforeDestroy() {
     //销毁前 - 实例仍然完全可用
-  },
+  }
 }
 </script>
